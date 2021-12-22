@@ -54,5 +54,5 @@ From the twitter streams and the Nasdaq-100 index price movement that we obtaine
 
 Jupiter Notebook and python file: sentimentModelTraditionalML.ipynb, sentimentModelNN.ipynb, correlate_sentiment_stock.py
 
-Source code: including in the src
+Source code: included in corresponding folder
 
