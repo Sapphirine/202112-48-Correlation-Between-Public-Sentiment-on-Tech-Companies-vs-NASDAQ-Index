@@ -64,7 +64,7 @@ def wrong_sleeping_function():
 
 
 with DAG(
-        'project_dag',
+        'stock_dag',
         default_args=default_args,
         description='A simple toy DAG',
         schedule_interval=timedelta(days=1),
