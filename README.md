@@ -38,13 +38,15 @@ This project is developed using python Python 3.7.12 and the packages below
 LSTM model is stored in Google Drive: https://drive.google.com/drive/folders/1gRJkuD8sRVmAQt4h95VcxAKBeBiCRXMG?usp=sharing
 
 ## System Airflow files
-1. twitterHTTPClinet.py - To set up twitter clinet to stream tweets
-2. stream_twitter_data.py - To stream raw tweets
-3. stream_stock_data.py - To stream NASDAQ-100 index data
-4. preprocess_stock.py - To clean raw stock data to desired format
-5. preprocess_tweets.py - To clean raw tweets data to desired format
-6. sentiment_analysis.py - To run sentiment analysis on our pre-trained LSTM model with GloVe embeddings
-7. correlate_sentiment_stock.py -  To run corrlation analysis
+
+1. project_flow.py - To run the whole flow first run project_flow.py all file below are dependency
+2. twitterHTTPClinet.py - To set up twitter clinet to stream tweets
+3. stream_twitter_data.py - To stream raw tweets
+4. stream_stock_data.py - To stream NASDAQ-100 index data
+5. preprocess_stock.py - To clean raw stock data to desired format
+6. preprocess_tweets.py - To clean raw tweets data to desired format
+7. sentiment_analysis.py - To run sentiment analysis on our pre-trained LSTM model with GloVe embeddings
+8. correlate_sentiment_stock.py -  To run corrlation analysis
 
 ## Results
 
